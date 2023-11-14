@@ -7,7 +7,7 @@ import numpy as np
 from ae.autoencoder import load_ae
 # TODO: Remove this, use from env path; change this to your own path
 os.environ["AE_PATH"] = os.path.join(
-    "G:\\UTS\\3rdSem\\43008\\racing\\donkey\\aae-train-donkeycar\\logs\\ae-32_1699356562_best.pkl")
+    "G:\\UTS\\3rdSem\\43008\\racing\\donkey\\aae-train-donkeycar\\logs\\latest.pkl")
 
 
 class AutoencoderWrapper(gym.Wrapper):
